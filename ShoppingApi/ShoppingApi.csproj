@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200927232517_InitializeDatabase.cs" />
+    <Compile Remove="Migrations\20200927232517_InitializeDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20200927233340_InitializeDatabase.cs" />
+    <Compile Remove="Migrations\20200927233340_InitializeDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20200927233538_InitializeDatabase.cs" />
+    <Compile Remove="Migrations\20200927233538_InitializeDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20200928001317_InitializeDatabase.cs" />
+    <Compile Remove="Migrations\20200928001317_InitializeDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20200928021708_InitializeDatabase.cs" />
+    <Compile Remove="Migrations\20200928021708_InitializeDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20200928023410_InitializeDatabase.cs" />
+    <Compile Remove="Migrations\20200928023410_InitializeDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20200928085125_InitializeDatabase.cs" />
+    <Compile Remove="Migrations\20200928085125_InitializeDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20200928085628_InitializeDatabase.cs" />
+    <Compile Remove="Migrations\20200928085628_InitializeDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20200929070450_InitializeDatabase.cs" />
+    <Compile Remove="Migrations\20200929070450_InitializeDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20200929070700_InitializeDatabase.cs" />
+    <Compile Remove="Migrations\20200929070700_InitializeDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20200929071549_InitializeDatabase.cs" />
+    <Compile Remove="Migrations\20200929071549_InitializeDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20200929071909_InitializeDatabase.cs" />
+    <Compile Remove="Migrations\20200929071909_InitializeDatabase.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+
+</Project>
